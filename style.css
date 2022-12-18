@@ -1,0 +1,130 @@
+.grad{
+    height: 600px;
+    background: linear-gradient(rgb(5, 240, 248),rgb(103, 150, 250) ,rgb(3, 12, 97) 92%);
+
+}
+.row1{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 25px;
+}
+
+.col1{
+    margin: 5px 160px 30px 160px;
+    display: inline-block;
+    width: 50px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.col2{
+    margin: 5px 160px 30px 160px;
+    display: inline-block;
+    width: 50px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.col3{
+    margin: 5px 160px 30px 160px;
+    display: inline-block;
+    width: 50px;
+    cursor: pointer;
+}
+
+         
+.b1 {
+    background-image: linear-gradient(to right, #ff0000 5%, cyan  50%, blue  100%);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 5px 5px 20px rgb(255, 0, 221);
+    border-radius: 10px;
+    height: 30px;
+    font-size: 15px;
+    width: 200px;
+    border-color: blue;
+  }
+
+
+ 
+.b2{
+    background-image: linear-gradient(to right, #ff0000 5%, cyan  50%, blue  100%);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 5px 5px 20px rgb(255, 0, 221);
+    border-radius: 10px;
+    height: 30px;
+    font-size: 15px;
+    width: 200px;
+    border-color: blue;
+}
+.b3{
+    background-image: linear-gradient(to right, #ff0000 5%, cyan  50%, blue  100%);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 5px 5px 20px rgb(255, 0, 221);
+    border-radius: 10px;
+    height: 30px;
+    font-size: 15px;
+    width: 200px;
+    border-color: blue;
+}
+/*.b1:hover{
+    width: 210px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+    box-shadow: 25px 25px 30px;
+    font-weight: bold;
+    border-color: darkorchid;
+
+}*/
+.b1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+  }
+/*.b2:hover{
+    width: 210px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+    box-shadow: 25px 25px 30px;
+    font-weight: bold;
+    border-color: darkorchid;
+
+}*/
+.b2:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+}
+/*.b3:hover{
+    width: 210px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+    box-shadow: 25px 25px 30px;
+    font-weight: bold;
+    border-color: darkorchid;
+}*/
+.b3:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+}
+.h2{
+    text-align: center;
+    font-size: 25px;
+    background: linear-gradient(#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    position: relative;
+    top: 80px;
+    
+}
